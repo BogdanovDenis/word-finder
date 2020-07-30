@@ -39,7 +39,7 @@ func main() {
 		}
 
 		if err := scanner.Err(); err != nil {
-			log.Fatal("Scener error:", err)
+			log.Fatal("Scanner error:", err)
 		}
 	}()
 
